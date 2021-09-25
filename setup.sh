@@ -10,4 +10,3 @@ sudo rm -rf setup.sh
 clear
 exit
 bash Whatsapp.sh
-exit
