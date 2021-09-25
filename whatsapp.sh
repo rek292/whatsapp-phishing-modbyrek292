@@ -74,6 +74,7 @@ do
 read -p "$green[*] Do you want to clean all files and exit? [Y/n] ==> : " clean
 	case "$clean" in
 [nN])
+sleep 0.5
 echo "" && exit
 ;;
 [Yy])
