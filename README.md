@@ -17,11 +17,11 @@ the best tool for whatsapp-phishing with otp Bypass ..
 
 # How to Intsall & Use
 root ---must !
-1. git clone https://github.com/rek292/whatsapp-phishing-modbyrek292.git
+1. sudo git clone https://github.com/rek292/whatsapp-phishing-modbyrek292.git
 2. cd whatsapp-phishing-modbyrek292
-3. bash setup.sh
-3. chmod 777 Whatsapp.sh
-4. ./Whatsapp.sh
+3. sudo bash setup.sh
+3. sudo chmod 777 Whatsapp.sh
+4. sudo ./Whatsapp.sh
 
 # Contact For Contribute
 # ( UNKNOWN )
