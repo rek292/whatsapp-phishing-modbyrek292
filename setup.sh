@@ -12,7 +12,8 @@ sudo apt-get install xterm
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install apache2 -y
+chmod 777 whatsapp.sh
 sudo rm -rf setup.sh
 clear
 exit
-bash Whatsapp.sh
+bash whatsapp.sh
