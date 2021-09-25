@@ -20,8 +20,8 @@ root ---must !
 1. sudo git clone https://github.com/rek292/whatsapp-phishing-modbyrek292.git
 2. cd whatsapp-phishing-modbyrek292
 3. sudo bash setup.sh
-3. sudo chmod 777 Whatsapp.sh
-4. sudo ./Whatsapp.sh
+3. sudo chmod 777 whatsapp.sh
+4. sudo ./whatsapp.sh
 
 # Contact For Contribute
 # ( UNKNOWN )
